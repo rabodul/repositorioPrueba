@@ -14,6 +14,8 @@ $array_json = json_decode(file_get_contents("http://api.icndb.com/jokes/random")
 //Cogemos chiste
 $chiste = $array_json["value"]["joke"];
 
+ECHO "tumadre";
+
 ?>
 
 <!DOCTYPE html>
